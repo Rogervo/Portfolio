@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c231ac9b.css",
+    "main.js": "/Portfolio/static/js/main.f64b9084.js",
+    "static/media/purplemountain.webp": "/Portfolio/static/media/purplemountain.9ac3fe84c860ea629d03.webp",
+    "static/media/cloud1.png": "/Portfolio/static/media/cloud1.bf84991dbced7ba3d8c4.png",
+    "static/media/space.jpg": "/Portfolio/static/media/space.cc4548af3fa3a6f3f897.jpg",
+    "static/media/codingimage.png": "/Portfolio/static/media/codingimage.fe088118fddf4f9e5dc2.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c231ac9b.css.map": "/Portfolio/static/css/main.c231ac9b.css.map",
+    "main.f64b9084.js.map": "/Portfolio/static/js/main.f64b9084.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c231ac9b.css",
+    "static/js/main.f64b9084.js"
+  ]
+}
