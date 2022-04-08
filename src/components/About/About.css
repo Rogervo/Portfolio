@@ -1,0 +1,62 @@
+.aboutContainer {
+    width: 100%;
+    padding-top: 70px;
+    height: 110vh;
+    position: relative;
+    margin-top: -2.6%;
+}
+.aboutTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(148, 54, 224);
+}
+
+.aboutSection {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.aboutBox {  
+    display: flex;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0 4px 10px grey;
+}
+
+.aboutContext {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: palevioletred;
+}
+
+.codingImage {
+    border-radius: 50px;
+}
+
+.bar1 {
+    background-color: rgb(177, 78, 243);
+    border-radius: 50px;
+    width: 600px;
+    height: 30px;
+}
+
+.bar2 {
+    background-color: rgb(177, 78, 243);
+    border-radius: 50px;
+    width: 400px;
+    height: 30px;
+}
+
+.bar3 {
+    background-color: rgb(177, 78, 243);
+    border-radius: 50px;
+    width: 800px;
+    height: 30px;
+}
