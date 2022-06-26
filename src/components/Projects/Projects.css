@@ -72,6 +72,7 @@
   }
 
 .projectDescription {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 50%;
     left: 90px;
@@ -87,7 +88,12 @@
 }
 
 .projectPara {
+    font-size: 20px;
     margin: 16px 0;
+}
+
+.projectDescriptionSubTitle {
+    font-size: 23px;
 }
 
 .projectDescriptionTitle,
@@ -95,4 +101,13 @@
 .projectPara {
     text-align: left;
     color: #fff;
+}
+
+.projectIcon {
+    color: rgb(148, 54, 224);
+    padding: 10px 15px;
+}
+.projectIcon:hover {
+    transition: all 200ms ease-in;
+    color: rgb(213, 57, 182);
 }

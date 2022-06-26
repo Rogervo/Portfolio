@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import eportpic from '../images/eportpic.png'
 import pizzarep from '../images/pizzarep.png'
 import { BsGithub } from "react-icons/bs";
+import { FaLink } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -18,12 +19,17 @@ function Projects() {
                   <div className='projectDescription'>
                     <h2 className='projectDescriptionTitle'>E-Portfolio</h2>
                     <h3 className='projectDescriptionSubTitle'> React.js, HTML, CSS, Javascript</h3>
-                    <p className='projectPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget,
-                  luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.</p>
-                    <a className='aboutIcon' href="https://github.com/Rogervo" target="blank">
-                    <BsGithub size={30}/>
-                    </a>
+                    <p className='projectPara'> My eportfolio, created from my imagination and creativity. The eportfolio has many features that enables 
+                    interactivity.
+                     </p>
+                    <div className='projectIcons'>
+                      <a className='projectIcon' href="https://github.com/Rogervo/React-portfolio" target="blank">
+                      <BsGithub size={30}/>
+                      </a>
+                      <a className='projectIcon' href="https://roger-vo.netlify.app/" target="blank">
+                      <FaLink size={30}/>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -31,14 +37,19 @@ function Projects() {
                 <div className='projectWrapper'>
                   <img src={pizzarep} className='projectImg' alt='Ecommerce project'></img>
                   <div className='projectDescription'>
-                    <h2 className='projectDescriptionTitle'>E-Commerce Project</h2>
+                    <h2 className='projectDescriptionTitle'>E-Commerce Website</h2>
                     <h3 className='projectDescriptionSubTitle'> React.js, HTML, CSS, Javascript, Next.js, </h3>
-                    <p className='projectPara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget,
-                  luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.</p>
-                    <a className='aboutIcon' href="https://github.com/Rogervo" target="blank">
-                    <BsGithub size={30}/>
-                    </a>
+                    <p className='projectPara'> An ecommerce website made from Next.js and React CSS. The website is a pizza restaurant food app, containing
+                    multiple pages. These include the home page, product page, shopping cart and order tracker. There are also interactive features such as 
+                    customizing products. </p>
+                    <div className='projectIcons'>
+                      <a className='projectIcon' href="https://github.com/Rogervo/pizza-ecom" target="blank">
+                      <BsGithub size={30}/>
+                      </a>
+                      <a className='projectIcon' href="https://e-commerce-pizza.netlify.app/" target="blank">
+                      <FaLink size={30}/>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </li>
