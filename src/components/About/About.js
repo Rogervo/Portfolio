@@ -4,6 +4,9 @@ import { motion } from 'framer-motion'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import codingImage from  '../images/codingimage.png';
+import resume from '../Documents/Resume.pdf';
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { AiFillMail } from "react-icons/ai";
 
 const About = () => {
     useEffect(() => {
@@ -68,12 +71,24 @@ const About = () => {
                 About Me!
             </h1>
         </div>
-        <div className='aboutSection'>
-        <div className='aboutBox' data-aos="fade-up" data-aos-duration="1000">
+        <div className='aboutSection' data-aos="fade-up" data-aos-duration="1000">
+        <div className='aboutBox'>
             <p className='aboutContext' data-aos="fade-left" data-aos-anchor-placement="center-center">
-                Hello! I'm aspiring to be a Frontend Software Engineer, as I 
-                passionately self-taught myself how to design and create web applications.
-                I am always eager to explore and experience new methods, to develop my professionality.
+                <p>Being able to design and create <span style={{fontWeight: 'bold'}}>interactive</span> experiences has always been a pleasure for me.</p>
+                <p>I have continuously grown a <span style={{fontWeight: 'bold'}}>strong passion and motivation</span> to develop appealing web applications. I
+                am always eager to explore and experience new methods to develop my professionality.</p>
+                <p>Learn more about me! <a className='resume' href= {resume} target="blank" style={{ textDecoration: 'none'}} > Resume </a> </p>
+                <div className='aboutReference'>
+                  <a className='aboutIcon' href="https://github.com/Rogervo" target="blank">
+                    <BsGithub size={35}/>
+                  </a>
+                  <a className='aboutIcon' href="https://www.linkedin.com/in/roger-vo-a8bb5b237/" target="blank">
+                    <BsLinkedin size={35}/>
+                  </a>
+                  <a className='aboutIcon' href="mailto:rogervo10@hotmail.com" target="blank">
+                    <AiFillMail size={35}/>
+                  </a>
+          </div>
             </p>
             <img src={codingImage} alt='pictue' className='codingImage'
                 style={{width: '450px'}}

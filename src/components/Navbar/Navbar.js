@@ -7,17 +7,17 @@ function Navbar() {
   return (
     <nav className='navBar'>
       <div className='navContainer'>
-          <li className='navLink'>
-              <Link to="About" smooth={true} duration={1000}>About Me</Link> 
+          <li className='navLink' data-aos="fade-right" data-aos-duration="1000">
+              <Link to="About" smooth={true} duration={1000}>ABOUT ME</Link> 
           </li>
-          <li className='navLink'>
-              <Link to="PersonalSkillStack" smooth={true} duration={1000}>Skills</Link> 
+          <li className='navLink' data-aos="fade-right" data-aos-duration="1000" >
+              <Link to="PersonalSkillStack" smooth={true} duration={1000}>SKILLS</Link> 
           </li>
-          <li className='navLink'>
-              <Link to="Projects" smooth={true} duration={1000}>Projects</Link> 
+          <li className='navLink' data-aos="fade-right" data-aos-duration="1000" >
+              <Link to="Projects" smooth={true} duration={1000}>PROJECTS</Link> 
           </li>
-          <li className='navLink'>
-              <Link to="Contact" smooth={true} duration={1000}>Contact</Link> 
+          <li className='navLink' data-aos="fade-right" data-aos-duration="1000" >
+              <Link to="Contact" smooth={true} duration={1000}>CONTACT</Link> 
           </li>
         </div>
     </nav>

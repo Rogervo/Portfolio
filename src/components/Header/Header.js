@@ -108,7 +108,7 @@ function Header() {
                 </motion.div>
             </h1>
         </div>
-        
+      
           <motion.div
                 initial={{
                   opacity: 0
@@ -183,7 +183,6 @@ function Header() {
                 >
                   <div className='smallRock4'></div>
                 </motion.div> 
-                 
     </Parallax>
   )
 }

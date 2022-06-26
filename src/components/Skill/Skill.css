@@ -1,4 +1,5 @@
 .mainContainer {
+    height: 110vh;
     background-color: rgb(211, 145, 255);
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -7,19 +8,20 @@
 }
 
 .skillContainer {
+    margin-top: -70px;
     display: flex;
 }
 
 .skillTitle {
     color: rgb(255, 255, 255);
-    padding-top: 50px;
+    padding-top: 65px;
     font-size: 30px;
     text-align: center;
 }
 
 .subTitle {
     color: rgb(255, 255, 255);
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -52,10 +54,10 @@
 
 .skill {
     background-color: white;
-    margin: 20px;
+    margin: 15px;
     box-shadow: 0 4px 10px grey;
     border-radius: 10px;
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     position: relative;
